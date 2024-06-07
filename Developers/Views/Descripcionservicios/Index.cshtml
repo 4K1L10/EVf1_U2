@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Developers.Models.Descripcionservicio>
+
+@{
+    ViewData["Title"] = "Descripcion de servicios";
+}
+
+<h1>Descripcion de servicios</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-outline-info">Nueva Descripcions de ervicios</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdServicioNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdServicioNavigation.IdServicio)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdDs" class="btn btn-outline-primary">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdDs" class="btn btn-outline-secondary">Ver</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdDs" class="btn btn-outline-warning">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

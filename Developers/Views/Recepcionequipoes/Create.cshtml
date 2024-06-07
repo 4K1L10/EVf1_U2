@@ -1,0 +1,91 @@
+﻿@model Developers.Models.Recepcionequipo
+
+@{
+    ViewData["Title"] = "Crear recepcione de equipo";
+}
+
+<h1>Nueva Recepcione de equipo</h1>
+
+<h4>Recepcion de equipos</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdRe" class="control-label"></label>
+                <input asp-for="IdRe" class="form-control" />
+                <span asp-validation-for="IdRe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdServicio" class="control-label"></label>
+                <select asp-for="IdServicio" class ="form-control" asp-items="ViewBag.IdServicio"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdCliente" class="control-label"></label>
+                <select asp-for="IdCliente" class ="form-control" asp-items="ViewBag.IdCliente"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fecha" class="control-label"></label>
+                <input asp-for="Fecha" class="form-control" />
+                <span asp-validation-for="Fecha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoPc" class="control-label"></label>
+                <input asp-for="TipoPc" class="form-control" />
+                <span asp-validation-for="TipoPc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Accesorio" class="control-label"></label>
+                <input asp-for="Accesorio" class="form-control" />
+                <span asp-validation-for="Accesorio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MarcaPc" class="control-label"></label>
+                <input asp-for="MarcaPc" class="form-control" />
+                <span asp-validation-for="MarcaPc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MoledoPc" class="control-label"></label>
+                <input asp-for="MoledoPc" class="form-control" />
+                <span asp-validation-for="MoledoPc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nserie" class="control-label"></label>
+                <input asp-for="Nserie" class="form-control" />
+                <span asp-validation-for="Nserie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CanpacidadRam" class="control-label"></label>
+                <input asp-for="CanpacidadRam" class="form-control" />
+                <span asp-validation-for="CanpacidadRam" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoAlmacenamiento" class="control-label"></label>
+                <input asp-for="TipoAlmacenamiento" class="form-control" />
+                <span asp-validation-for="TipoAlmacenamiento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoGpu" class="control-label"></label>
+                <input asp-for="TipoGpu" class="form-control" />
+                <span asp-validation-for="TipoGpu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Grafico" class="control-label"></label>
+                <input asp-for="Grafico" class="form-control" />
+                <span asp-validation-for="Grafico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-outline-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-outline-primary">Atras</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

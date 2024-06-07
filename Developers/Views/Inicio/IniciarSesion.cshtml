@@ -1,0 +1,59 @@
+﻿
+@{
+    Layout = null;
+}
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width"/>
+        <title>IniciarSesion</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+
+
+    <div class="contrainer mt-5 pt-5">
+
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        Iniciar Secion
+                    </div>
+                   <div class="card-body">
+
+                       <form asp-controller="Inicio" asp-action="IniciarSesion" method="post">
+
+                            <input class="form-control-mb3" type="text" placeholder="Correo" required name="Correo" />
+                            <input class="form-control-mb3" type="text" placeholder="Contraseña" required name="Password"/>
+                            <div class="d-grid gap-2 mb3">
+                                <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+
+                            </div>
+                            @if (ViewData["Mensaje"]!= null)
+                            {
+                                <div class="form-group">
+                                    <div class="alert alert-danger" role="alert">
+                                        @ViewData["Mensaje"]
+                                    </div>
+                                </div>
+                            }
+                            ¿No tienes una cuenta?<a href="@Url.Action("Registrarse","Inicio")">Registrarse</a>
+
+                           </form>
+
+                   </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>   
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+

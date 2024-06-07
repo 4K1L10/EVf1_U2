@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "W:\\D0CUM3NT0\\Developers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|w:\\d0cum3nt0\\developers\\developers\\models\\mercydevelopercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|solutionrelative:developers\\models\\mercydevelopercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|w:\\d0cum3nt0\\developers\\developers\\views\\inicio\\iniciarsesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|solutionrelative:developers\\views\\inicio\\iniciarsesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|w:\\d0cum3nt0\\developers\\developers\\controllers\\inciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|solutionrelative:developers\\controllers\\inciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|w:\\d0cum3nt0\\developers\\developers\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|solutionrelative:developers\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|w:\\d0cum3nt0\\developers\\developers\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|solutionrelative:developers\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|w:\\d0cum3nt0\\developers\\developers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|solutionrelative:developers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|w:\\d0cum3nt0\\developers\\developers\\servicios\\implementacion\\usuariosevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|solutionrelative:developers\\servicios\\implementacion\\usuariosevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|w:\\d0cum3nt0\\developers\\developers\\views\\inicio\\registrarse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F449613-F266-4811-87F3-C354CCDFE8B2}|Developers\\Developers.csproj|solutionrelative:developers\\views\\inicio\\registrarse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MercyDeveloperContext.cs",
+              "DocumentMoniker": "W:\\D0CUM3NT0\\Developers\\Developers\\Models\\MercyDeveloperContext.cs",
+              "RelativeDocumentMoniker": "Developers\\Models\\MercyDeveloperContext.cs",
+              "ToolTip": "W:\\D0CUM3NT0\\Developers\\Developers\\Models\\MercyDeveloperContext.cs",
+              "RelativeToolTip": "Developers\\Models\\MercyDeveloperContext.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwBwAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:37:58.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "W:\\D0CUM3NT0\\Developers\\Developers\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Developers\\Models\\Usuario.cs",
+              "ToolTip": "W:\\D0CUM3NT0\\Developers\\Developers\\Models\\Usuario.cs",
+              "RelativeToolTip": "Developers\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:37:35.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "W:\\D0CUM3NT0\\Developers\\Developers\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Developers\\Controllers\\UsuariosController.cs",
+              "ToolTip": "W:\\D0CUM3NT0\\Developers\\Developers\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Developers\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:37:19.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "W:\\D0CUM3NT0\\Developers\\Developers\\Program.cs",
+              "RelativeDocumentMoniker": "Developers\\Program.cs",
+              "ToolTip": "W:\\D0CUM3NT0\\Developers\\Developers\\Program.cs",
+              "RelativeToolTip": "Developers\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:35:14.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioSevice.cs",
+              "DocumentMoniker": "W:\\D0CUM3NT0\\Developers\\Developers\\Servicios\\Implementacion\\UsuarioSevice.cs",
+              "RelativeDocumentMoniker": "Developers\\Servicios\\Implementacion\\UsuarioSevice.cs",
+              "ToolTip": "W:\\D0CUM3NT0\\Developers\\Developers\\Servicios\\Implementacion\\UsuarioSevice.cs",
+              "RelativeToolTip": "Developers\\Servicios\\Implementacion\\UsuarioSevice.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T06:56:34.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Registrarse.cshtml",
+              "DocumentMoniker": "W:\\D0CUM3NT0\\Developers\\Developers\\Views\\Inicio\\Registrarse.cshtml",
+              "RelativeDocumentMoniker": "Developers\\Views\\Inicio\\Registrarse.cshtml",
+              "ToolTip": "W:\\D0CUM3NT0\\Developers\\Developers\\Views\\Inicio\\Registrarse.cshtml",
+              "RelativeToolTip": "Developers\\Views\\Inicio\\Registrarse.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T06:50:34.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IniciarSesion.cshtml",
+              "DocumentMoniker": "W:\\D0CUM3NT0\\Developers\\Developers\\Views\\Inicio\\IniciarSesion.cshtml",
+              "RelativeDocumentMoniker": "Developers\\Views\\Inicio\\IniciarSesion.cshtml",
+              "ToolTip": "W:\\D0CUM3NT0\\Developers\\Developers\\Views\\Inicio\\IniciarSesion.cshtml",
+              "RelativeToolTip": "Developers\\Views\\Inicio\\IniciarSesion.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T06:47:14.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IncioController.cs",
+              "DocumentMoniker": "W:\\D0CUM3NT0\\Developers\\Developers\\Controllers\\IncioController.cs",
+              "RelativeDocumentMoniker": "Developers\\Controllers\\IncioController.cs",
+              "ToolTip": "W:\\D0CUM3NT0\\Developers\\Developers\\Controllers\\IncioController.cs",
+              "RelativeToolTip": "Developers\\Controllers\\IncioController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAawB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T06:30:28.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

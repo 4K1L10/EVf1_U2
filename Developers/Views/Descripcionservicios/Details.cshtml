@@ -1,0 +1,30 @@
+﻿@model Developers.Models.Descripcionservicio
+
+@{
+    ViewData["Title"] = "Ver Descripcion";
+}
+
+<h1>Ver</h1>
+
+<div>
+    <h4>Descripcion de servicio</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdServicioNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdServicioNavigation.IdServicio)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.IdDs" class="btn btn-outline-success">Editar </a> |
+    <a asp-action="Index" class="btn btn-outline-primary">Atras</a>
+</div>
